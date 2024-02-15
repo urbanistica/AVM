@@ -155,7 +155,8 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-color: #3D3C3A;
+    // background-image: url('../img/girsInClass.mp4');
     text-align: center;
     color: white;
     .header-content {
