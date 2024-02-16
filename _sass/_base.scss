@@ -69,6 +69,10 @@ aside {
 
 // Navigation
 
+body#subpage .navbar-default {
+  background-color: red;
+}
+
 .navbar-default {
     background-color: white;
     border-color: rgba($theme-dark, .5);
@@ -203,6 +207,12 @@ header {
                 }
             }
         }
+    }
+}
+
+body#subpage header.sub {
+    @media (min-width: 768px) {
+      height: 40px;
     }
 }
 
