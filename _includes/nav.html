@@ -8,7 +8,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="../#services">Apptessence</a>
+            {% if jekyll.environment == "production" %}
+                <a class="navbar-brand page-scroll" href="=/AVM/#services">Apptessence</a>
+            {% else %}
+                <a class="navbar-brand page-scroll" href="../#services">Apptessence</a>
+            {% endif %}
+           
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
